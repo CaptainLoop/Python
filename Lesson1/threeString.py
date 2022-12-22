@@ -24,3 +24,11 @@ number = 546.876164
 print(number)
 
 print("%.4f" %number)
+
+
+user = input("What is your W40K name?")
+user2 = input("What is your Dune name?")
+
+print(user+user2)
+print("Your name is " + user + " " + user2)
+print("Hello {} {}".format(user, user2))
