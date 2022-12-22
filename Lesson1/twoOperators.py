@@ -18,6 +18,9 @@ print(2==2 and 3==3)
 kifejezes = "mocskosallat"
 benne = "alla"
 nincsbenne = "mcsk"
+ugyanaz = "mocskosallat"
 
 print(benne in kifejezes)
 print(nincsbenne in kifejezes)
+
+print(ugyanaz is kifejezes)
